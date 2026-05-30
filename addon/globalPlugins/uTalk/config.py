@@ -30,7 +30,9 @@ DEFAULT_CONFIG = {
 	"selectAll": "select all",
 	"selectAll_alt": "",
 	"undo": "undo",
-	"undo_alt": ""
+	"undo_alt": "",
+	"new": "new",
+	"new_alt": ""
 }
 
 # Migration flag

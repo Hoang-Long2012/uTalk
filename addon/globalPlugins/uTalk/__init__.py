@@ -35,7 +35,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		"kb:control+a": "announceSelectAll",
 		"kb:control+s": "announceSave",
 		"kb:control+shift+c": "announceCopyAsPath",
-		"kb:control+alt+c": "announceCopyFile"
+		"kb:control+alt+c": "announceCopyFile",
+		"kb:control+n": "announceNew"
 	}
 
 	def __init__(self):
@@ -217,6 +218,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if obj and obj.appModule and obj.appModule.appName.lower() == "explorer":
 			self._safe_speak("copyFile")
 		core.callLater(0, gesture.send)
+
+	def script_announceNew(self, gesture):
+		"""Create new document or tab if in browser and announces"""
+		core.callLater(0, gesture.send)
+		self._safe_speak("save")
 
 	def script_toggle_or_settings(self, gesture):
 		"""Toggles alternate language mode or opens settings with double-tap"""
