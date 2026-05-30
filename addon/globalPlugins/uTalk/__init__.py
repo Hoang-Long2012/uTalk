@@ -222,7 +222,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_announceNew(self, gesture):
 		"""Create new document or tab if in browser and announces"""
 		core.callLater(0, gesture.send)
-		self._safe_speak("save")
+		self._safe_speak("new")
 
 	def script_toggle_or_settings(self, gesture):
 		"""Toggles alternate language mode or opens settings with double-tap"""
