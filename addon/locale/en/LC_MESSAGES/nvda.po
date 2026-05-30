@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uTalk 2026.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-30 21:54+0700\n"
+"POT-Creation-Date: 2026-05-30 22:25+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: English\n"
@@ -60,10 +60,14 @@ msgstr "Undo"
 msgid "New"
 msgstr "New"
 
-#: settingsPanel.py:39
+#: settingsPanel.py:37
+msgid "Close"
+msgstr "Close"
+
+#: settingsPanel.py:40
 msgid "Command translations:"
 msgstr "Command translations:"
 
-#: settingsPanel.py:49
+#: settingsPanel.py:50
 msgid "Restore Defaults"
 msgstr "Restore Defaults"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-30 21:54+0700\n"
+"POT-Creation-Date: 2026-05-30 22:25+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,10 +65,14 @@ msgstr ""
 msgid "New"
 msgstr ""
 
-#: settingsPanel.py:39
+#: settingsPanel.py:37
+msgid "Close"
+msgstr ""
+
+#: settingsPanel.py:40
 msgid "Command translations:"
 msgstr ""
 
-#: settingsPanel.py:49
+#: settingsPanel.py:50
 msgid "Restore Defaults"
 msgstr ""

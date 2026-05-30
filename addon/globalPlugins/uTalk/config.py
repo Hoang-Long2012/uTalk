@@ -32,7 +32,9 @@ DEFAULT_CONFIG = {
 	"undo": "undo",
 	"undo_alt": "",
 	"new": "new",
-	"new_alt": ""
+	"new_alt": "",
+	"close": "close",
+	"close_alt": ""
 }
 
 # Migration flag

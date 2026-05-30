@@ -33,7 +33,8 @@ class uTalkSettingsPanel(SettingsPanel):
 			("save", _("Save")),
 			("selectAll", _("Select all")),
 			("undo", _("Undo")),
-			("new", _("New"))
+			("new", _("New")),
+			("close", _("Close"))
 		]
 		
 		sHelper.addItem(wx.StaticText(self, label=_("Command translations:")))

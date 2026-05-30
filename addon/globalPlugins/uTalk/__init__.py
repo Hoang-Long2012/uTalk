@@ -36,7 +36,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		"kb:control+s": "announceSave",
 		"kb:control+shift+c": "announceCopyAsPath",
 		"kb:control+alt+c": "announceCopyFile",
-		"kb:control+n": "announceNew"
+		"kb:control+n": "announceNew",
+		"kb:control+w": "announceClose",
+		"kb:control+f4": "announceClose"
 	}
 
 	def __init__(self):
@@ -223,6 +225,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		"""Create new document or tab if in browser and announces"""
 		core.callLater(0, gesture.send)
 		self._safe_speak("new")
+
+	def script_announceClose(self, gesture):
+		"""Close document or browser tab if in browser"""
+		core.callLater(0, gesture.send)
+		self._safe_speak("close")
 
 	def script_toggle_or_settings(self, gesture):
 		"""Toggles alternate language mode or opens settings with double-tap"""
